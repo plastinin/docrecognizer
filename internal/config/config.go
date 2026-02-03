@@ -69,7 +69,7 @@ type S3Config struct {
 
 type OllamaConfig struct {
 	Host           string        `env:"OLLAMA_HOST" envDefault:"http://localhost:11434"`
-	Model          string        `env:"OLLAMA_MODEL" envDefault:"qwen2-vl:7b"`
+	Model          string        `env:"OLLAMA_MODEL" envDefault:"qwen3-vl"`
 	RequestTimeout time.Duration `env:"OLLAMA_REQUEST_TIMEOUT" envDefault:"5m"`
 }
 
